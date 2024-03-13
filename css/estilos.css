@@ -1,0 +1,74 @@
+body {
+    background-image: url(../imagens/fundo.png);
+   
+    border: 40px solid white;
+    padding: 20px;
+    margin: -5px;
+    color: black;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: limegreen;
+    size: 28px;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: limegreen;
+    size: 24px;
+
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    text-align: justify;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+}
+
+/* .imagem-container {
+    text-align: center;
+} */
+
+.imagem-container img {
+    border: 4px solid limegreen;
+    flex: 1;
+    display: inline-block;
+}
+
+blockquote {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    font-family: "Arial", sans-serif;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid silver;
+    border-collapse: collapse;
+}
+
+th td {
+    border: 2px solid silver;
+}
+
+td:nth-child(1) {
+    width: 200px; 
+}
+
+td:nth-child(2) {
+    width: 200px; 
+}
+
+td:nth-child(3) {
+    width: 100px; 
+}
+
+td:nth-child(4) {
+    width: 100px; 
+}
